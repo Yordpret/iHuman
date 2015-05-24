@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */; };
+		DE9DBBB21B10EE1A00DF9283 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */; };
 		DECEF2651B0ECFFA002F7ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEF2641B0ECFFA002F7ECF /* AppDelegate.swift */; };
 		DECEF2681B0ECFFA002F7ECF /* iHuman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DECEF2661B0ECFFA002F7ECF /* iHuman.xcdatamodeld */; };
 		DECEF26A1B0ECFFA002F7ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEF2691B0ECFFA002F7ECF /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sign-In-Bg.jpg"; sourceTree = "<group>"; };
+		DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
 		DECEF25F1B0ECFFA002F7ECF /* iHuman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHuman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECEF2631B0ECFFA002F7ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECEF2641B0ECFFA002F7ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DECEF2561B0ECFFA002F7ECF = {
+		DE9DBBAD1B10E9BD00DF9283 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */,
+				DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DE9DBBAE1B10E9C800DF9283 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DECEF2911B0ED580002F7ECF /* GAI.h */,
@@ -93,14 +106,23 @@
 				DECEF2951B0ED580002F7ECF /* GAIEcommerceProductAction.h */,
 				DECEF2961B0ED580002F7ECF /* GAIEcommercePromotion.h */,
 				DECEF2971B0ED580002F7ECF /* GAIFields.h */,
-				DECEF2981B0ED580002F7ECF /* GAILogger.h */,
-				DECEF2991B0ED580002F7ECF /* GAITrackedViewController.h */,
 				DECEF29A1B0ED580002F7ECF /* GAITracker.h */,
 				DECEF28F1B0ED54A002F7ECF /* libsqlite3.dylib */,
 				DECEF28D1B0ED53E002F7ECF /* libz.dylib */,
 				DECEF28B1B0ED51F002F7ECF /* SystemConfiguration.framework */,
 				DECEF2891B0ED50D002F7ECF /* CoreData.framework */,
 				DECEF2871B0ED4DC002F7ECF /* libGoogleAnalyticsServices.a */,
+				DECEF2981B0ED580002F7ECF /* GAILogger.h */,
+				DECEF2991B0ED580002F7ECF /* GAITrackedViewController.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DECEF2561B0ECFFA002F7ECF = {
+			isa = PBXGroup;
+			children = (
+				DE9DBBAE1B10E9C800DF9283 /* Frameworks */,
+				DE9DBBAD1B10E9BD00DF9283 /* Assets */,
 				DECEF2611B0ECFFA002F7ECF /* iHuman */,
 				DECEF27A1B0ECFFA002F7ECF /* iHumanTests */,
 				DECEF2601B0ECFFA002F7ECF /* Products */,
@@ -235,8 +257,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */,
 				DECEF26D1B0ECFFA002F7ECF /* Main.storyboard in Resources */,
 				DECEF2721B0ECFFA002F7ECF /* LaunchScreen.xib in Resources */,
+				DE9DBBB21B10EE1A00DF9283 /* Icon-76@3x.png in Resources */,
 				DECEF26F1B0ECFFA002F7ECF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +487,7 @@
 				DECEF2831B0ECFFA002F7ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DECEF2841B0ECFFA002F7ECF /* Build configuration list for PBXNativeTarget "iHumanTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +496,7 @@
 				DECEF2861B0ECFFA002F7ECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
