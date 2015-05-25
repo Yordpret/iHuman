@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */; };
 		DE9DBBB21B10EE1A00DF9283 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */; };
+		DE9DBBBA1B131CAA00DF9283 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DBBB91B131CAA00DF9283 /* SwiftyJSON.swift */; };
 		DECEF2651B0ECFFA002F7ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEF2641B0ECFFA002F7ECF /* AppDelegate.swift */; };
 		DECEF2681B0ECFFA002F7ECF /* iHuman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DECEF2661B0ECFFA002F7ECF /* iHuman.xcdatamodeld */; };
 		DECEF26A1B0ECFFA002F7ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEF2691B0ECFFA002F7ECF /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sign-In-Bg.jpg"; sourceTree = "<group>"; };
 		DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
+		DE9DBBB91B131CAA00DF9283 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		DECEF25F1B0ECFFA002F7ECF /* iHuman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHuman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECEF2631B0ECFFA002F7ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECEF2641B0ECFFA002F7ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		DE9DBBAE1B10E9C800DF9283 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE9DBBB91B131CAA00DF9283 /* SwiftyJSON.swift */,
 				DECEF2911B0ED580002F7ECF /* GAI.h */,
 				DECEF2921B0ED580002F7ECF /* GAIDictionaryBuilder.h */,
 				DECEF2931B0ED580002F7ECF /* GAIEcommerceFields.h */,
@@ -282,6 +285,7 @@
 				DECEF26A1B0ECFFA002F7ECF /* ViewController.swift in Sources */,
 				DECEF2651B0ECFFA002F7ECF /* AppDelegate.swift in Sources */,
 				DECEF2681B0ECFFA002F7ECF /* iHuman.xcdatamodeld in Sources */,
+				DE9DBBBA1B131CAA00DF9283 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -113,6 +113,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="send" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQF-V4-7YV">
+                                <rect key="frame" x="16" y="394" width="568" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -135,9 +141,11 @@
                             <constraint firstItem="cTG-82-Ta4" firstAttribute="centerX" secondItem="XSb-0k-ot8" secondAttribute="centerX" id="Nxh-Bs-jfy"/>
                             <constraint firstAttribute="centerY" secondItem="lYs-Kv-koa" secondAttribute="centerY" id="POd-QS-CD8"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XSb-0k-ot8" secondAttribute="bottom" constant="20" id="QXr-kW-UnM"/>
+                            <constraint firstItem="uQF-V4-7YV" firstAttribute="top" secondItem="Pfb-zn-MYe" secondAttribute="bottom" constant="8" id="Rwb-Wm-1Dz"/>
                             <constraint firstItem="cTG-82-Ta4" firstAttribute="top" secondItem="lYs-Kv-koa" secondAttribute="bottom" constant="-50" id="USq-bm-H0F"/>
                             <constraint firstItem="XSb-0k-ot8" firstAttribute="top" secondItem="lYs-Kv-koa" secondAttribute="bottom" constant="-49" id="WJ5-To-vBY"/>
                             <constraint firstItem="cTG-82-Ta4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Yhb-TC-PiB"/>
+                            <constraint firstItem="uQF-V4-7YV" firstAttribute="width" secondItem="Pfb-zn-MYe" secondAttribute="width" id="ZkE-Wa-R9Z"/>
                             <constraint firstItem="XSb-0k-ot8" firstAttribute="top" secondItem="lYs-Kv-koa" secondAttribute="bottom" constant="-49" id="adE-PW-MwF"/>
                             <constraint firstItem="lYs-Kv-koa" firstAttribute="top" secondItem="Q6l-P9-ZJi" secondAttribute="bottom" constant="-240" id="c4C-8z-Mdk"/>
                             <constraint firstItem="zVg-Xn-dp6" firstAttribute="top" secondItem="hdG-8D-JeN" secondAttribute="bottom" constant="20" id="cQN-Bl-vfD"/>
@@ -155,6 +163,7 @@
                             <constraint firstItem="Pfb-zn-MYe" firstAttribute="top" secondItem="zVg-Xn-dp6" secondAttribute="bottom" constant="8" id="sgG-Dy-5gM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XSb-0k-ot8" secondAttribute="bottom" constant="20" id="tMn-c3-GMr"/>
                             <constraint firstAttribute="centerX" secondItem="XSb-0k-ot8" secondAttribute="centerX" id="v1Z-Fl-YWn"/>
+                            <constraint firstAttribute="centerX" secondItem="uQF-V4-7YV" secondAttribute="centerX" id="wfZ-0u-Ddx"/>
                             <constraint firstItem="Pfb-zn-MYe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wuu-h1-MbW"/>
                         </constraints>
                         <variation key="default">
@@ -182,6 +191,9 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="errorMessage" destination="uQF-V4-7YV" id="AaA-4w-EJ5"/>
+                        <outlet property="password" destination="Pfb-zn-MYe" id="ZSy-ft-pA9"/>
+                        <outlet property="username" destination="zVg-Xn-dp6" id="g7S-EN-fLx"/>
                         <segue destination="0MD-Vr-x7e" kind="show" identifier="LoginSegue" id="WlV-Fx-D85"/>
                     </connections>
                 </viewController>

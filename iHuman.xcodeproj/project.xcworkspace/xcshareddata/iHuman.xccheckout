@@ -12,6 +12,8 @@
 	<dict>
 		<key>79420D09C37BF8C84019A4FE1AE897E618B90CAF</key>
 		<string>https://github.com/Sarrll/iHuman.git</string>
+		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
+		<string>https://github.com/lingoer/SwiftyJSON.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iHuman.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>79420D09C37BF8C84019A4FE1AE897E618B90CAF</key>
 		<string>../..</string>
+		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
+		<string>../../../SwiftyJSON</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Sarrll/iHuman.git</string>
@@ -35,6 +39,14 @@
 			<string>79420D09C37BF8C84019A4FE1AE897E618B90CAF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iHuman</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftyJSON</string>
 		</dict>
 	</array>
 </dict>

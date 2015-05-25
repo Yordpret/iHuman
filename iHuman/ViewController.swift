@@ -9,11 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var errorMessage: UILabel!
+    
     @IBAction func Login(sender: UIButton) {
         var url: NSURL = NSURL(string: "http://ihuman.somee.com/oauth/token")!
         var request:NSMutableURLRequest = NSMutableURLRequest(URL:url)
-        var bodyData = "grant_type=password&username=&password="
+        var bodyData = "grant_type=password&username=\(username.text)&password=\(password.text)"
         
         request.HTTPMethod = "POST"
         request.HTTPBody = bodyData.dataUsingEncoding(NSUTF8StringEncoding);
@@ -26,8 +29,10 @@ class ViewController: UIViewController {
                     println("Signed In!")
                 }
                 else {
-                    let results = NSString(data: data, encoding:NSUTF8StringEncoding)
-                    println("API Response: \(results)")
+                    let results = JSON(data: data)
+                    var resultsMessage = results["error_description"]
+                    self.errorMessage.text = "\(resultsMessage)"
+                    println(results["error_description"])
                 }
             }
         })
