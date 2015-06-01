@@ -8,6 +8,16 @@
 
 import UIKit
 
+class RoundedUITableView: UITableView {
+    override func drawRect(rect: CGRect) {
+        updateLayerProperties()
+    }
+    func updateLayerProperties() {
+        layer.cornerRadius = 6.0
+    }
+}
+
+
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -55,7 +65,5 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
-    
 }
+
