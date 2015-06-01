@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C999380F1B1B4698007C9492 /* register-profile-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C999380E1B1B4698007C9492 /* register-profile-icon.png */; };
 		DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */; };
 		DE9DBBB21B10EE1A00DF9283 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */; };
 		DE9DBBBA1B131CAA00DF9283 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DBBB91B131CAA00DF9283 /* SwiftyJSON.swift */; };
@@ -17,7 +18,6 @@
 		DECEF26F1B0ECFFA002F7ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECEF26E1B0ECFFA002F7ECF /* Images.xcassets */; };
 		DECEF2721B0ECFFA002F7ECF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECEF2701B0ECFFA002F7ECF /* LaunchScreen.xib */; };
 		DECEF27E1B0ECFFA002F7ECF /* iHumanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECEF27D1B0ECFFA002F7ECF /* iHumanTests.swift */; };
-		DECEF2881B0ED4DC002F7ECF /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEF2871B0ED4DC002F7ECF /* libGoogleAnalyticsServices.a */; };
 		DECEF28A1B0ED50D002F7ECF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEF2891B0ED50D002F7ECF /* CoreData.framework */; };
 		DECEF28C1B0ED51F002F7ECF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEF28B1B0ED51F002F7ECF /* SystemConfiguration.framework */; };
 		DECEF28E1B0ED53E002F7ECF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEF28D1B0ED53E002F7ECF /* libz.dylib */; };
@@ -35,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C96C91E21B19A033003CBA4D /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		C96C91E31B19A033003CBA4D /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		C96C91E41B19A033003CBA4D /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		C96C91E51B19A033003CBA4D /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		C96C91E61B19A033003CBA4D /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		C999380E1B1B4698007C9492 /* register-profile-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register-profile-icon.png"; sourceTree = "<group>"; };
+		C9E63CC21B19A6CC0067D63D /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sign-In-Bg.jpg"; sourceTree = "<group>"; };
 		DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
 		DE9DBBB91B131CAA00DF9283 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -49,7 +56,6 @@
 		DECEF2771B0ECFFA002F7ECF /* iHumanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHumanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECEF27C1B0ECFFA002F7ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECEF27D1B0ECFFA002F7ECF /* iHumanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHumanTests.swift; sourceTree = "<group>"; };
-		DECEF2871B0ED4DC002F7ECF /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.12/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		DECEF2891B0ED50D002F7ECF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DECEF28B1B0ED51F002F7ECF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DECEF28D1B0ED53E002F7ECF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -75,7 +81,6 @@
 				DECEF28E1B0ED53E002F7ECF /* libz.dylib in Frameworks */,
 				DECEF28C1B0ED51F002F7ECF /* SystemConfiguration.framework in Frameworks */,
 				DECEF28A1B0ED50D002F7ECF /* CoreData.framework in Frameworks */,
-				DECEF2881B0ED4DC002F7ECF /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */,
+				C999380E1B1B4698007C9492 /* register-profile-icon.png */,
 				DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */,
 			);
 			name = Assets;
@@ -101,6 +107,7 @@
 		DE9DBBAE1B10E9C800DF9283 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9E63CC21B19A6CC0067D63D /* libGoogleAnalyticsServices.a */,
 				DE9DBBB91B131CAA00DF9283 /* SwiftyJSON.swift */,
 				DECEF2911B0ED580002F7ECF /* GAI.h */,
 				DECEF2921B0ED580002F7ECF /* GAIDictionaryBuilder.h */,
@@ -110,13 +117,17 @@
 				DECEF2961B0ED580002F7ECF /* GAIEcommercePromotion.h */,
 				DECEF2971B0ED580002F7ECF /* GAIFields.h */,
 				DECEF29A1B0ED580002F7ECF /* GAITracker.h */,
+				DECEF2981B0ED580002F7ECF /* GAILogger.h */,
+				DECEF2991B0ED580002F7ECF /* GAITrackedViewController.h */,
+				C96C91E21B19A033003CBA4D /* TAGContainer.h */,
+				C96C91E31B19A033003CBA4D /* TAGContainerOpener.h */,
+				C96C91E41B19A033003CBA4D /* TAGDataLayer.h */,
+				C96C91E51B19A033003CBA4D /* TAGLogger.h */,
+				C96C91E61B19A033003CBA4D /* TAGManager.h */,
 				DECEF28F1B0ED54A002F7ECF /* libsqlite3.dylib */,
 				DECEF28D1B0ED53E002F7ECF /* libz.dylib */,
 				DECEF28B1B0ED51F002F7ECF /* SystemConfiguration.framework */,
 				DECEF2891B0ED50D002F7ECF /* CoreData.framework */,
-				DECEF2871B0ED4DC002F7ECF /* libGoogleAnalyticsServices.a */,
-				DECEF2981B0ED580002F7ECF /* GAILogger.h */,
-				DECEF2991B0ED580002F7ECF /* GAITrackedViewController.h */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */,
+				C999380F1B1B4698007C9492 /* register-profile-icon.png in Resources */,
 				DECEF26D1B0ECFFA002F7ECF /* Main.storyboard in Resources */,
 				DECEF2721B0ECFFA002F7ECF /* LaunchScreen.xib in Resources */,
 				DE9DBBB21B10EE1A00DF9283 /* Icon-76@3x.png in Resources */,
@@ -419,6 +431,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Sarr/Downloads/GoogleAnalyticsServicesiOS_3.12,
+					"$(PROJECT_DIR)",
+					/Users/JG/Downloads/GoogleAnalyticsServicesiOS_3.12,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -433,6 +447,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Sarr/Downloads/GoogleAnalyticsServicesiOS_3.12,
+					"$(PROJECT_DIR)",
+					/Users/JG/Downloads/GoogleAnalyticsServicesiOS_3.12,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
