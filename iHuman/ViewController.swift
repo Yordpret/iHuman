@@ -17,12 +17,11 @@ class RoundedUITableView: UITableView {
     }
 }
 
-
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var errorMessage: UILabel!
     
+    let alert = UIAlertView()
     
     @IBAction func Login(sender: UIButton) {
         var url: NSURL = NSURL(string: "http://ihuman.somee.com/oauth/token")!
@@ -42,12 +41,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 else {
                     let results = JSON(data: data)
                     var resultsMessage = results["error_description"]
-                    self.errorMessage.text = "\(resultsMessage)"
                     println(results["error_description"])
+                    self.alert.title = "Incorrect Password"
+                    self.alert.message = "\(resultsMessage)"
+                    self.alert.addButtonWithTitle("OK")
+                    self.alert.show()
                 }
             }
         })
     }
+    
+    
     
     func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return NO to ignore.
     {

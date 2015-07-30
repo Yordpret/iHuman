@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C916AB511B6A795700B227F0 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = C916AB501B6A795700B227F0 /* backBtn.png */; };
+		C916AB531B6A830B00B227F0 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C916AB521B6A830B00B227F0 /* ForgotPasswordViewController.swift */; };
 		C999380F1B1B4698007C9492 /* register-profile-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C999380E1B1B4698007C9492 /* register-profile-icon.png */; };
 		DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */; };
 		DE9DBBB21B10EE1A00DF9283 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C916AB501B6A795700B227F0 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		C916AB521B6A830B00B227F0 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		C96C91E21B19A033003CBA4D /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
 		C96C91E31B19A033003CBA4D /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
 		C96C91E41B19A033003CBA4D /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DE9DBBAF1B10EA0F00DF9283 /* Sign-In-Bg.jpg */,
+				C916AB501B6A795700B227F0 /* backBtn.png */,
 				C999380E1B1B4698007C9492 /* register-profile-icon.png */,
 				DE9DBBB11B10EE1A00DF9283 /* Icon-76@3x.png */,
 			);
@@ -158,6 +163,7 @@
 				DECEF2641B0ECFFA002F7ECF /* AppDelegate.swift */,
 				DECEF2691B0ECFFA002F7ECF /* ViewController.swift */,
 				DECEF26B1B0ECFFA002F7ECF /* Main.storyboard */,
+				C916AB521B6A830B00B227F0 /* ForgotPasswordViewController.swift */,
 				DECEF26E1B0ECFFA002F7ECF /* Images.xcassets */,
 				DECEF2701B0ECFFA002F7ECF /* LaunchScreen.xib */,
 				DECEF2661B0ECFFA002F7ECF /* iHuman.xcdatamodeld */,
@@ -271,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C916AB511B6A795700B227F0 /* backBtn.png in Resources */,
 				DE9DBBB01B10EA0F00DF9283 /* Sign-In-Bg.jpg in Resources */,
 				C999380F1B1B4698007C9492 /* register-profile-icon.png in Resources */,
 				DECEF26D1B0ECFFA002F7ECF /* Main.storyboard in Resources */,
@@ -295,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECEF26A1B0ECFFA002F7ECF /* ViewController.swift in Sources */,
+				C916AB531B6A830B00B227F0 /* ForgotPasswordViewController.swift in Sources */,
 				DECEF2651B0ECFFA002F7ECF /* AppDelegate.swift in Sources */,
 				DECEF2681B0ECFFA002F7ECF /* iHuman.xcdatamodeld in Sources */,
 				DE9DBBBA1B131CAA00DF9283 /* SwiftyJSON.swift in Sources */,
