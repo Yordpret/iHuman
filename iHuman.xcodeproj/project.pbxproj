@@ -39,6 +39,8 @@
 /* Begin PBXFileReference section */
 		C916AB501B6A795700B227F0 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
 		C916AB521B6A830B00B227F0 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		C945925A1BA42981006A1EA4 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		C945925B1BA42981006A1EA4 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		C96C91E21B19A033003CBA4D /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
 		C96C91E31B19A033003CBA4D /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
 		C96C91E41B19A033003CBA4D /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DECEF26C1B0ECFFA002F7ECF /* Base */,
+				C945925A1BA42981006A1EA4 /* th */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DECEF2711B0ECFFA002F7ECF /* Base */,
+				C945925B1BA42981006A1EA4 /* th */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

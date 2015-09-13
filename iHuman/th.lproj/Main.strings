@@ -1,0 +1,66 @@
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "0w0-si-Q7y"; */
+"0w0-si-Q7y.normalTitle" = "เข้าสู่ระบบ";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "1Fc-N0-S7R"; */
+"1Fc-N0-S7R.title" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "true"; ObjectID = "4Ef-Kt-cSz"; */
+"4Ef-Kt-cSz.title" = "true";
+
+/* Class = "UINavigationItem"; title = "iHuman"; ObjectID = "6F6-TE-wqs"; */
+"6F6-TE-wqs.title" = "iHuman";
+
+/* Class = "UITextField"; placeholder = "User Email"; ObjectID = "6gq-V6-VYZ"; */
+"6gq-V6-VYZ.placeholder" = "ชื่ออีเมล";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "7Lb-Tq-7uv"; */
+"7Lb-Tq-7uv.placeholder" = "รหัสผ่าน";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "83r-SM-m14"; */
+"83r-SM-m14.title" = "Item 2";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "GgU-xz-sAl"; */
+"GgU-xz-sAl.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Forgot your password?"; ObjectID = "I4V-jT-v4w"; */
+"I4V-jT-v4w.text" = "ลืมรหัสผ่าน?";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "NTh-Zy-wbO"; */
+"NTh-Zy-wbO.normalTitle" = "ลืมรหัสผ่าน?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Pfb-zn-MYe"; */
+"Pfb-zn-MYe.placeholder" = "รหัสผ่าน";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "W42-Yq-w57"; */
+"W42-Yq-w57.title" = "Item 1";
+
+/* Class = "UIBarButtonItem"; title = "true"; ObjectID = "WUI-Lh-lAe"; */
+"WUI-Lh-lAe.title" = "true";
+
+/* Class = "UILabel"; text = "Don't have an account? "; ObjectID = "XSb-0k-ot8"; */
+"XSb-0k-ot8.text" = "ยังไม่เคยใช้มาก่อน? ";
+
+/* Class = "UINavigationItem"; title = "iHuman"; ObjectID = "Yp3-qi-cCO"; */
+"Yp3-qi-cCO.title" = "iHuman";
+
+/* Class = "UIButton"; normalTitle = "Sign up now!"; ObjectID = "cTG-82-Ta4"; */
+"cTG-82-Ta4.normalTitle" = "สมัครที่นี่เลย!";
+
+/* Class = "UILabel"; text = "iHuman"; ObjectID = "hdG-8D-JeN"; */
+"hdG-8D-JeN.text" = "iHuman";
+
+/* Class = "UITextField"; placeholder = "User Email"; ObjectID = "oUr-CE-e4j"; */
+"oUr-CE-e4j.placeholder" = "ชื่ออีเมล";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "pTi-GG-gxJ"; */
+"pTi-GG-gxJ.placeholder" = "ยืนยันรหัสผ่าน";
+
+/* Class = "UIButton"; normalTitle = "Sign Up Free"; ObjectID = "pno-4o-bWY"; */
+"pno-4o-bWY.normalTitle" = "สมัครฟรี";
+
+/* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "xz5-nU-QNt"; */
+"xz5-nU-QNt.normalTitle" = "ขอรหัสผ่านใหม่";
+
+/* Class = "UITextField"; placeholder = "User Email"; ObjectID = "zVg-Xn-dp6"; */
+"zVg-Xn-dp6.placeholder" = "ชื่ออีเมล";

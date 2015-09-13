@@ -40,5 +40,24 @@ class ForgotPasswordViewController: UIViewController, UITextFieldDelegate {
             }
         })
     }
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    //Calls this function when the tap is recognized.
+    func DismissKeyboard(){
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.emailResetPassword.delegate = self
+        // Do any additional setup after loading the view, typically from a nib.
+        //Looks for single or multiple taps.
+        var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
 }
 
